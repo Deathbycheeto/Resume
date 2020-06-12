@@ -1,3 +1,6 @@
+Body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 #Container {
     width: 100%;
     display: flex;
@@ -13,7 +16,7 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    min-width: 250px;
+    min-width: 260px;
 }
 
 #Main {
@@ -81,7 +84,6 @@
 #bullet-3  {
     vertical-align: top;
     padding-top: 20px;
-    size: .5em;
 }
 
 #bullet-4  {
