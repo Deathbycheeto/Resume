@@ -1,0 +1,155 @@
+#Container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#Side { 
+    display: inline-block;
+    width: 19%;
+    background-color: goldenrod;
+    color: black;
+    border:2px solid black;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+
+#Main {
+    display: inline-block;
+    color: black;
+    vertical-align: top;
+    background-color: white;
+    padding: 25px 50px;
+    width: 79%;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-info {
+    list-style: none;
+}
+
+#Pic {
+    display: block;
+    margin: 20px auto;
+}
+
+#First {
+    font-size: 2em;
+    color:  goldenrod;
+}
+
+#Second {
+    font-size: 1.9em;
+}
+
+#About {
+    text-align: justify;
+    padding: 0px 40px;
+}
+
+#Hobbies {
+    text-align: center;
+    padding: 0px 40px;
+}
+
+#Ref1 {
+    display: inline-block;
+    width: 45%;
+    min-width: 275px;
+}
+
+#Ref2 {
+    display: inline-block;
+    width: 45%;
+    min-width: 275px;
+}
+
+#bullet-1  {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+#bullet-2  {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+#bullet-3  {
+    vertical-align: top;
+    padding-top: 20px;
+    size: .5em;
+}
+
+#bullet-4  {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.date {
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    color: black;
+    min-width: 90px;
+}
+
+.details {
+    display: inline-block;
+    width: 65%;
+    vertical-align: bottom;
+    line-height: 1.25em;
+    color: black;
+}
+
+.Side-header {
+    text-align: center;
+    padding: 10px;
+    background-color: #322d2c; 
+    color: white;
+    
+}   
+
+ul.table {
+    list-style: none;
+    width: 100%;
+}
+
+.Main-Header i {
+    color: goldenrod;
+}
+
+i {
+    margin: 0px 20px 0px 0px;
+}
+
+hr {
+    color: goldenrod;
+}
+@media all and (max-width: 600px) {
+    #Container {
+        flex-flow: row wrap;
+    }
+    #bullet-1 {
+        width: 5%;
+    }
+    .date {
+            width: 80%;
+        }
+    .details {
+        width: 100%;
+        }
+    #Ref1 {
+            width: 100%;
+        }
+    #Ref2 {
+            width: 100%;
+        }
+    #Name {
+        font-size: 22px;
+
+    }
+}
